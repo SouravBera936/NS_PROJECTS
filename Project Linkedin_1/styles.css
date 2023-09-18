@@ -164,16 +164,151 @@ nav .input-search{
 .middle-content .box-2{
     background-color: white;
     width: 100%;
-    height: 300px;
+    height: 290px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.middle-content .box-2 .profile{
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    gap: 10px;
+}
+.middle-content .box-2 .profile .circle{
+    width: 46px;
+    height: 33px;
+    border-radius: 100%;
+    background-color: #0d67c2;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 22px;
     margin-top: 20px;
 }
-
-
+.middle-content .box-2 .profile .description{
+    margin-top: 20px;
+}
+.middle-content .box-2 .profile .name{
+    font-weight: bold;
+}
+.middle-content .box-2 .profile .designation{
+    font-size: 12px;
+}
+.middle-content .box-2 .paragraph{
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    gap: 10px;
+    text-align: justify;
+}
+.middle-content .box-2 .social{
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.middle-content .box-2 .social .count{
+    padding-left: 10px;
+}
+.middle-content .box-2 .social .comments{
+    padding-right: 10px;
+}
+.middle-content .box-2 .social .fa-thumbs-up{
+   color: #0d67c2;
+}
+.middle-content .box-2 .link{
+    width: 95%;
+    margin: 10px;
+}
+.middle-content .box-2 .link .link-head{
+    font-weight: bold;
+    font-size: 14px;
+}
+.middle-content .box-2 .link .link-subhead{
+    font-size: 10px;
+}
+.middle-content .box-2 .icons{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.middle-content .box-2 .icons .text{
+    padding-left: 10px;
+}
 .middle-content .box-3{
     background-color: white;
     width: 100%;
     height: 300px;
     margin-top: 20px;
+}
+.middle-content .box-3 .profile{
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    gap: 10px;
+}
+.middle-content .box-3 .profile .circle{
+    width: 46px;
+    height: 33px;
+    border-radius: 100%;
+    background-color: #0d67c2;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.middle-content .box-3 .profile .description{
+    margin-top: 20px;
+}
+.middle-content .box-3 .profile .name{
+    font-weight: bold;
+}
+.middle-content .box-3 .profile .designation{
+    font-size: 12px;
+}
+.middle-content .box-3 .paragraph{
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    gap: 10px;
+    text-align: justify;
+}
+.middle-content .box-3 .social{
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.middle-content .box-3 .social .count{
+    padding-left: 10px;
+}
+.middle-content .box-3 .social .comments{
+    padding-right: 10px;
+}
+.middle-content .box-3 .social .fa-thumbs-up{
+   color: #0d67c2;
+}
+.middle-content .box-3 .link{
+    width: 95%;
+    margin: 10px;
+}
+.middle-content .box-3 .link .link-head{
+    font-weight: bold;
+    font-size: 14px;
+}
+.middle-content .box-3 .link .link-subhead{
+    font-size: 10px;
+}
+.middle-content .box-3 .icons{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.middle-content .box-3 .icons .text{
+    padding-left: 10px;
 }
 .main-section .right-content{
     background-color: white;
