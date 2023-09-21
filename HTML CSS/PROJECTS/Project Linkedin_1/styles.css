@@ -336,3 +336,6 @@ nav .input-search{
     font-size: 10px;
     margin-left: 20px;
 }
+.nav-second-list-tag:hover{
+    transform: scale(1.5);
+}
