@@ -14,9 +14,13 @@ public class Main {
         Scanner sc=new Scanner(System.in);
         int X=sc.nextInt();
         for (int i=1;i<=X;i++){
-            System.out.print("*");
-            for (int j=1;j<=X-2;j++){
-                System.out.println("* *");
+            for (int j=1;j<=X;j++){
+                if(i==1||i==X||j==1||j==X){
+                    System.out.print("*");
+                }
+                else{
+                    System.out.print(" ");
+                }
             }
             System.out.println();
         }
